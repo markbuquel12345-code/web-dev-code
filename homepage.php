@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brgy 727 Disaster & Health Risk Monitoring System</title>
+    <title>Brgy 727 Dengue Health Campaign System</title>
     <link rel="stylesheet" href="homepage.css">
 </head>
 
 <body>
     <!-- HEADER -->
-    <header class="header">
-        <div class="header-left">
-            <div class="logo-section">
-                <div class="logo-icon">⚕</div>
-                <div class="logo-text">
-                    <h1>BRGY 727</h1>
-                    <p>Monitoring System</p>
-                </div>
-            </div>
+            </div> <header class="header">
+      <div class="header-left">
+        <div class="logo-section">
+          <div class="logo-icon">🦟</div>
+          <div class="logo-text">
+            <h1>BRGY 727</h1>
+            <p> DENGUE CAMPAIGN</p>
+          </div>
+        </div>
+      </div>
         </div>
 
         <!-- LOGIN BUTTON -->
@@ -27,18 +28,19 @@
     </header>
 
     <!-- HERO -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>DISASTER AND RISK<br />MONITORING SYSTEM</h1>
-            <p class="hero-subtitle">
-                Sagutan ang Survey para sa Iyong Kaligtasan. Ang iyong sagot ay
-                makakatulong sa barangay sa oras ng emergency.
-            </p>
+   <section class="hero">
+      <div class="hero-content">
+        <h1>MATUTO<br>TUNGKOL SA DENGUE</h1>
+        <p class="hero-subtitle">
+          Alamin ang mga sintomas, paraan ng pag-iwas, at kahalagahan ng
+          kalusugan sa panahon ng tag-ulan.
+        </p>
 
             <div class="hero-buttons">
-                <a href="survey.php" class="survey-btn">Survey</a>
-            </div>
+          <a href="survey.html" id="surveyBtn" class="survey-btn disabled">Survey (Login Required)</a>
+          <p id="loginPrompt" class="login-prompt">Mag-login gamit ang Gmail para ma-access ang survey</p>
         </div>
+      </div>
     </section>
 
     <!-- CONTENT -->
@@ -62,17 +64,18 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="hotline-footer">
-        <div class="footer-container">
-            <h2 class="footer-title">BRGY 727 MONITORING SYSTEM</h2>
+  <footer class="hotline-footer">
+      <div class="footer-container">
+        <h2 class="footer-title">BRGY 727 DENGUE CAMPAIGN HOTLINE</h2>
+        <div class="contact-item">Emergency Hotline: 911</div>
+        <div class="contact-item">Brgy Hotline: 0917-XXX-XXXX</div>
+      </div>
+    </footer>
 
-            <p class="footer-description">
-                Para sa kaligtasan at kahandaan ng bawat residente ng Barangay 727.
-            </p>
-
-            <div class="contact-item">Emergency Hotline: 911</div>
-            <div class="contact-item">Brgy Hotline: 0917-XXX-XXXX</div>
-        </div>
+    <footer class="copyright-footer">
+      <div class="footer-container">
+        <p>&copy; 2024 Brgy 727 Health Campaign. All rights reserved.</p>
+      </div>
     </footer>
 
     <div class="bottom-accent"></div>
