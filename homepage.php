@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brgy 727 Disaster & Health Risk Monitoring System</title>
+    <title>Brgy 727 Dengue Campaign System</title>
     <link rel="stylesheet" href="homepage.css">
 </head>
 
 <body>
     <!-- HEADER -->
     <header class="header">
-        <div class="header-left">
-            <div class="logo-section">
-                <div class="logo-icon">⚕</div>
-                <div class="logo-text">
-                    <h1>BRGY 727</h1>
-                    <p>Monitoring System</p>
-                </div>
-            </div>
+      <div class="header-left">
+        <div class="logo-section">
+          <div class="logo-icon">🦟</div>
+          <div class="logo-text">
+            <h1>BRGY 727</h1>
+            <p> DENGUE CAMPAIGN</p>
+          </div>
         </div>
+      </div>
 
         <!-- LOGIN BUTTON -->
         <div class="header-right">
